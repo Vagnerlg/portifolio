@@ -1,0 +1,43 @@
+#carrossel{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin: auto;	
+}
+
+#carrossel ul{
+	list-style:none;
+	width: 700px;
+	margin: 0px;
+	padding: 0px;
+}
+#carrossel ul li{
+	display: inline-block;
+	position: relative;
+	height: 300px;
+	width:300px;
+	border-left: 5px solid #ccc;
+	float: left;
+	background-color: #a9bcc5;
+}
+#carrossel ul li img{
+	width: 250px;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+}
+.transformar-10{
+	-moz-transform: skewX(-10deg);
+-webkit-transform: skewX(-10deg);
+-o-transform: skewX(-10deg);
+-ms-transform: skewX(-10deg);
+transform: skewX(-10deg);
+}
+
+.transformar10{
+	-moz-transform: skewX(10deg);
+-webkit-transform: skewX(10deg);
+-o-transform: skewX(10deg);
+-ms-transform: skewX(10deg);
+transform: skewX(10deg);
+}
